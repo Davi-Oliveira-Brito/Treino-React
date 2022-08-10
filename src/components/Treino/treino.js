@@ -13,7 +13,6 @@ export default function Comp(props) {
                 <div className='imagem'>
                     <img src={imagem} />
                 </div>
-                <input type="text" />
             </div>
         </main>
     );
