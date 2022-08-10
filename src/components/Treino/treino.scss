@@ -1,0 +1,45 @@
+.main{
+    .row{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around; 
+       width: 500px;
+    }
+
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between; 
+        width: 600px;
+
+        .text{
+            width: 400px;
+        }
+
+     }
+
+    .column{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around; 
+        width: 500px;
+
+    }
+    .column-reverse{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: space-around; 
+        width: 500px;
+
+    }
+    
+
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+
+}

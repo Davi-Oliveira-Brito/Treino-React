@@ -1,0 +1,12 @@
+.main{
+    *{
+        align-items: center;
+    }
+    .comp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 120vh;
+    }
+
+}
